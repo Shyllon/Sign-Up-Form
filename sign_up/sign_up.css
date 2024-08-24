@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-group input:invalid {
+    border-color: #FF4C4C; /* Red border for invalid input */
+
+}
+.login-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.login-link p {
+    margin: 0;
+}
+
+.login-link a {
+    color: #007BFF; /* Blue color for the link */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #596D48; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a5a3b; /* Slightly darker color on hover */
+}

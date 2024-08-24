@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="sign_up.css">
 </head>
+
+    <h1>Sign-Up Form</h1>
+    <p>Welcome to the sign-up form page. Let's do this!</p>
+
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <img src="images" alt="ODIN Logo" class="logo">
+            <h1>Create an Account</h1>
+        </div>
+        <form class="signup-form" autocomplete="on">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" autocomplete="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" autocomplete="new-password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" autocomplete="new-password" required>
+            </div>
+            <button type="submit">Create Account</button>
+            <div class="login-link">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Afolabi Shyllon</p>
+    </footer>
 </body>
 </html>
